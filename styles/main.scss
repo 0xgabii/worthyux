@@ -1,0 +1,18 @@
+@import "base/all";
+
+html {
+  font-size: 16px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  #main {
+    flex: 1;
+  }
+}
