@@ -8,10 +8,13 @@ export class Header extends Component {
   render() {
     return (
       <header className="header">
-        <Link href="/">worthyux</Link>
+        <Link id="logo" href="/">
+          WORTHY
+          <small>ux</small>
+        </Link>
 
         <nav>
-          <NavLink href="/about">About</NavLink>
+          <NavLink href="/about">about</NavLink>
         </nav>
       </header>
     );

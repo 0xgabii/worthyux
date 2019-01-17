@@ -1,6 +1,29 @@
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   position: fixed;
   z-index: 9999;
+
+  padding: 30px;
+  width: 100%;
+
+  #logo {
+    display: inline-block;
+    padding: 7px 15px;
+
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 30px;
+
+    small {
+      font-size: 17px;
+      letter-spacing: 1px;
+    }
+  }
+
+  nav {
+    font-size: 15px;
+  }
 }
