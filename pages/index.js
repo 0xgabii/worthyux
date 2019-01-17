@@ -6,8 +6,11 @@ import './index.scss';
 
 const Home = () => (
   <Page className="home">
-    <h1>User</h1>
-    <h1>Experience</h1>
+    <h1>
+      In your
+      <br />
+      Daily Life
+    </h1>
   </Page>
 );
 

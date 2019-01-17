@@ -2,8 +2,10 @@ import React from 'react';
 
 import { Page } from '../layouts';
 
+import './about.scss';
+
 const About = () => (
-  <Page>
+  <Page className="about">
     <h1>About</h1>
   </Page>
 );
