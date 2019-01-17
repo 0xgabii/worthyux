@@ -13,6 +13,11 @@ html {
   overflow-y: auto;
 
   #main {
+    display: flex;
     flex: 1;
+
+    & > div {
+      flex: 1;
+    }
   }
 }
