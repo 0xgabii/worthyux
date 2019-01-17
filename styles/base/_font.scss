@@ -2,12 +2,16 @@
   font-family: "Lato";
   font-weight: 700;
   src: local("Lato Black"),
-    url("/static/font/Lato/Lato-Black.ttf") format("truetype");
+    url("/static/fonts/Lato/Lato-Black.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Lato";
   font-weight: 400;
   src: local("Lato Regular"),
-    url("/static/font/Lato/Lato-Regular.ttf") format("truetype");
+    url("/static/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: Lato, sans-serif;
 }
