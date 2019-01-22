@@ -9,7 +9,7 @@ export class Header extends Component {
     return (
       <header className="header">
         <Link id="logo" href="/">
-          WORTHY
+          Worthy
           <small>ux</small>
         </Link>
 
